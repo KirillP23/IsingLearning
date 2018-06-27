@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV, train_test_split
 
 RANDOM_SEED = 44
-data_path = 'gcn/data/'
+data_path = 'data/'
 
 
 def load_data(dataset_str):
